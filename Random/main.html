@@ -6,6 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1>GUESS THE RANDOM NUMBER</h1>
+    <input id="inp">
+    <button id="butt" onclick="call()">check</button>
+    <p id="box">You are right/wrong</p>
+    <p id="sco">Score:10</p>
+<script>
+    var inp1=document.getElementById("inp")
+    var result = document.getElementById("box")
+    var score1=document.getElementById("sco")
+    var randomno = Math.floor(Math.random()*10)+1
+    score=10
+    function call(){
+        var inpval=inp1.value
+        if(inpval==randomno){
+        result.textContent="Right"
+        console.log("Right")
+        alert("You Won... And your score is "+score)
+        }
+        else{
+            console.log("Wrong")
+            result.textContent="Wrong"
+            score-=1
+            score1.textContent="Score: "+score
+            
+        }
+    }
+</script>
 </body>
 </html>
