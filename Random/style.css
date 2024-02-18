@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(96, 96, 250);
+}
+.container{
+background-color: lightblue;
+margin:10rem;
+margin-right: 30rem;
+margin-left: 27rem;
+padding-left:6rem ;
+padding-top: 4rem;
+padding-bottom: 4rem;
+border-radius: 10px;
+
+}
+#inp{
+    margin-left: 4.5rem;
+    border: none;
+    background-color: rgb(227, 234, 242);
+}
+button{
+    background-color:  rgb(193, 162, 221);
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+h1{
+    color: rgb(96, 96, 250);
+}
+
