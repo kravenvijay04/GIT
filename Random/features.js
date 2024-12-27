@@ -3,7 +3,7 @@ var inp1=document.getElementById("inp")
     var score1=document.getElementById("sco")
     var randomno = Math.floor(Math.random()*10)+1
     score=10
-
+//js code 
     function call(){
         var inpval=inp1.value
 
